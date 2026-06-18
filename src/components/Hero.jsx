@@ -42,7 +42,7 @@ const Hero = () => {
               View My Work
             </a>
             <a 
-              href="https://github.com/jennellesalva" 
+              href="https://github.com/sajinobu" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex justify-center items-center px-6 py-3 text-sm bg-transparent font-sans font-semibold rounded border transition-all duration-200 text-light-text dark:text-dark-text border-light-border dark:border-dark-border hover:border-brand-green dark:hover:border-brand-green hover:text-brand-green dark:hover:text-brand-green"
