@@ -1,0 +1,12 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  /* Customizing colors directly in CSS */
+  --color-cyber-bg: #0a0a0a;
+  --color-cyber-neon: #00f3ff;
+  --color-cyber-accent: #ff003c;
+  
+  /* Customizing fonts */
+  --font-mono: "Fira Code", monospace;
+}
