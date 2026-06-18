@@ -1,12 +1,29 @@
-/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
-  /* Customizing colors directly in CSS */
-  --color-cyber-bg: #0a0a0a;
-  --color-cyber-neon: #00f3ff;
-  --color-cyber-accent: #ff003c;
-  
-  /* Customizing fonts */
-  --font-mono: "Fira Code", monospace;
+  /* Signature Accent */
+  --color-brand-green: #00DC82;
+  --color-brand-green-hover: #00B86B;
+
+  /* Dark Mode Variables */
+  --color-dark-bg: #0B1120;
+  --color-dark-card: #1E293B;
+  --color-dark-text: #F8FAFC;
+  --color-dark-muted: #94A3B8;
+  --color-dark-border: #334155;
+
+  /* Light Mode Variables */
+  --color-light-bg: #F8FAFC;
+  --color-light-card: #FFFFFF;
+  --color-light-text: #0F172A;
+  --color-light-muted: #64748B;
+  --color-light-border: #E2E8F0;
+
+  /* Font Families */
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'Fira Code', monospace;
 }
