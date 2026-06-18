@@ -64,7 +64,7 @@ const Navbar = () => {
               {/* Added text-light-text and dark:text-dark-text */}
               <span className="text-light-text dark:text-dark-text">&lt;</span>
               <span className="text-brand-green">JS</span>
-              <span className="text-light-text dark:text-dark-text"> /&gt;</span>
+              <span className="text-light-text dark:text-dark-text">/&gt;</span>
             </a>
           </div>
 
